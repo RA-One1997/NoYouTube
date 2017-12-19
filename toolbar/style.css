@@ -1,0 +1,48 @@
+html, body {
+  width: 250px;
+  min-height: 50px;
+}
+
+#blk-btn {
+    padding: 10px;
+}
+
+#youtube {
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+#youtube span:first-child
+{
+    color: red;
+}
+
+#options {
+    position: relative;
+}
+
+#options #subheader {
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #888;
+}
+
+#option-list {
+    list-style: none;
+    text-decoration: none;
+}
+
+#blocking {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+}

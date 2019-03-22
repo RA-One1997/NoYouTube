@@ -1,3 +1,4 @@
+// i added a comment... that's it !
 var remove_time = 150
 var remove_time_string = String(remove_time/1000) + "s";
 
